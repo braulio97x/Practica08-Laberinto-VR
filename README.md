@@ -15,9 +15,7 @@
 |<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>**INSTRUCCIONES**</p>|<p>Este proyecto es una oportunidad para que combine y practique todo lo que aprendió en el capítulo de Realidad Virtual. Creará una experiencia de realidad virtual totalmente interactiva en forma de laberinto.</p><p></p><p>Esto le brinda la oportunidad de aplicar lo que ha aprendido con las secuencias de comandos para brindar una experiencia audiovisual completa.</p><p></p><p>***Crear la GVR Camera Rig***</p><p></p><p>Durante este paso, crearemos la cámara VR incluyendo el GvrEditorEmulator en la escena y configurando la cámara.</p><p></p><p>1. Agregue el objeto prefab GvrEditorEmulator a la escena.</p><p>2. Convierta el objeto Main Camera en un elemento hijo del objeto GvrEditorEmulator.</p><p>3. Restablece el componente Transformar del objeto Main Camera</p><p>4. Mueva el objeto GvrEditorEmulator a una ubicación conveniente para el desarrollo, por ejemplo, Posición: 0, 3, 35 y Rotación: 0, 180, 0.</p><p>5. Ingrese al modo de juego y use Alt + Mouse y Ctrl + Mouse para rotar e inclinar el ángulo de visión de la cámara.</p><p></p><p>- **Desarrollo**</p><p>Se agregan los componentes según lo especificado. Esta cámara se ubica al inicio de todos los Waypoints.</p><p>![](infoJuego.004.png)</p><p></p><p>**Ubicación:** </p><p>![](infoJuego.005.png)</p><p></p><p>**Resultado**</p><p>![](infoJuego.006.png)</p><p></p><p>***Preparando la escena para la interacción***</p><p></p><p>Durante este paso, prepararemos la escena para la interacción configurando el puntero, el emisor de rayos y el sistema de eventos, y luego probaremos el sistema de punto de referencia incluido (waypoint).</p><p></p><p>1. Agregue el objeto prefab GvrReticlePointer a la escena como elemento secundario del objeto del Main Camera.</p><p>2. Aumente el valor de Distancia máxima de retícula para el GvrReticlePointer del</p><p>valor predeterminado de 10 a 20.</p>|
 
 
-**Resolución CS N° 076-04-2016-04-20**
 
-**Resolución CS N° 076-04-2016-04-20**
 
 
 
@@ -56,7 +54,7 @@ Se completó la interfaz correspondiente, para esto se cumplieron los requerimie
 
 
 
-![](infoJuego.016.png)
+
 
 **Programando el comportamiento de la moneda (coin)**
 
