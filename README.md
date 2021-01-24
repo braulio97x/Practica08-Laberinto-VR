@@ -19,7 +19,7 @@
 
 **Resolución CS N° 076-04-2016-04-20**
 
-![](infoJuego.008.png)
+
 
 3. Agregue el script GvrPointerPhysicsRaycaster como componente en el objeto Main Camera.
 
@@ -113,7 +113,7 @@ La llave se programó según lo especificado, añadiendo una animación de flota
 ![](infoJuego.019.png)![](infoJuego.020.png)
 
 
-![](infoJuego.021.png)
+
 # ***Programando el comportamiento de la puerta (door)***
 
 Durante este paso, programaremos el comportamiento de la puerta (door) para que cuando se haga clic en la llave (key), la Puerta se desbloquee y cuando se haga clic en la Puerta, se escuche un sonido y comience a girar a una posición de apertura.
