@@ -31,6 +31,7 @@
 
 ![](infoJuego.011.png)
 
+
 # ***Hacer que los objetos del juego sean interactivos***
 
 Durante este paso haremos que la Moneda, la Llave y la Puerta sean interactivas añadiéndoles componentes de disparadores y eventos.
@@ -40,7 +41,7 @@ Se cumplieron cada uno de los requerimientos de este punto. Como pruebas se env�
 `                    `**Coin                                           Key                                          Door**
 
 ![](infoJuego.012.png)![](infoJuego.013.png)![](infoJuego.014.png)
-**
+
 
 
 
@@ -50,6 +51,7 @@ Se cumplieron cada uno de los requerimientos de este punto. Como pruebas se env�
 Durante este paso, haremos que el objeto SignPost sea interactivo al agregarle componentes de disparadores y eventos. El proceso es casi idéntico al que hicimos con la moneda, la llave y la puerta en el paso anterior, pero no necesitamos un colisionador para interactuar con los objetos del juego de la interfaz de usuario. En su lugar, debemos verificar que el objeto del juego Canvas tenga un componente Graphic Raycaster, y debido a que estamos usando GVR, reemplazaremos el Graphic Raycaster de Unity con el GvrPointerGraphicRaycaster de Google VR.
 
 Se completó la interfaz correspondiente, para esto se cumplieron los requerimientos especificados en el informe. Se agregan las capturas según los puntos que necesitan evidencia.
+
 ![](infoJuego.015.png)
 
 
